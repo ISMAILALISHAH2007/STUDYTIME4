@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDY TIME</title>
+<style>
+.para{
+font-family:'roboto', sans-serif;
+color: rgb(219, 213, 213);
+position: absolute;
+margin-top: 60px;
+margin-left: 267px;
+}
+input::placeholder{
+    color:(160, 153, 153);
+    font-size: 17px;
+}
+textarea::placeholder{
+    color:(160, 153, 153);
+    font-size: 17px;
+    margin-top: 7px;
+}
+body{
+    
+background-color: rgb(31, 25, 25);
+}
+input{
+position: absolute;
+background-color:rgb(31, 25, 25);
+border: 1px solid rgb(188, 184, 184);
+border-radius: 4px;
+color:white ;
+margin-left: 200px;
+padding: 15px;
+padding-right: 150px;
+}
+.name{
+position: absolute;
+color:(160, 153, 153);
+margin-left: 399px;
+padding: 15px;
+padding-right: 150px;
+margin-top: 150px;
+}
+.input{
+position: absolute;
+color:(160, 153, 153);
+margin-left: 55px;
+padding: 15px;
+padding-right: 150px;
+margin-top: 150px;
+}
+.container{
+    position:absolute;
+    bottom: 195px;
+}
+.placeholder{
+    font-size:7px ;
+}    
+textarea{
+  
+    padding-right: 504px;
+    background-color:rgb(31, 25, 25) ;
+    border: 1px solid rgb(188, 184, 184);
+    border-radius: 4px;
+    margin-left: 270px;
+    color: white;
+}
+span{
+    color: rgb(160, 153, 153);
+    position: absolute;
+    bottom: 157px;
+    left: 276px;
+}
+input[type=submit]{
+    position: absolute;
+    background-color: rgb(232, 56, 29);
+    padding-right: 19px;
+    padding-left: 19px;
+   font-size: 17px;
+   padding-bottom: 9px;
+   padding-top: 9px;
+   bottom: 140px;
+   left: 660px;
+   border: 0px;
+   color: white;
+}
+</style>
+</head>
+<body>
+    <form>
+<span>Your email address will not be published.Required fields are marked*</span>
+<div class="para"> <h2>Join the discussion</h2></div>  
+<div class="name">
+    <input type="email"  placeholder="Email*" id="email" >
+</div>
+<div class="input">
+    <input type ="text"  placeholder ="Name*" id="name" >
+</div>
+<div class="container">
+    <textarea rows="6" placeholder="Comment*"></textarea>
+</div>
+     <input type="submit" value="submit" name="submit">
+</form>
+</body> 
+</html>
